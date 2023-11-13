@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Link from "next/link";
+import Editor from "./editor/Editor";
 
-export default function Home() {
+export default function EditorDemo() {
   return (
     <div>
-      <Link href={"/blog"}>Blog</Link>
+      <h1 style={{ textAlign: "center" }}>What's happening?</h1>
+      <Editor id="editor" />
     </div>
   );
 }
